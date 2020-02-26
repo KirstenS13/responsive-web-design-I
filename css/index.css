@@ -1,3 +1,420 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+/* Commenting out my previous CSS because it's giving me trouble. I'm going to start it from scratch. */
 
+/*section, header, footer {
+	border: 1px solid purple;
+	width: 90%;
+	margin: 4%;
+}
+
+nav, img, a, p, h1, h2, address, div {
+	border: 1px solid purple;
+}
+
+.logo {
+	margin-left: 2.5%;
+}
+
+nav {
+	display: flex;
+	width: 80%;
+	padding: 2%;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav a {
+	width: 30%;
+	margin: 5%;
+	color: darkgrey;
+}
+
+.first-section img {
+	display: flex;
+	margin-left: 6%;
+	width: 30%;
+}
+
+.first-section div {
+	display: flex;
+	margin: 2% 4%;
+	width: 45%;
+	text-align: center;
+}
+
+.first-section div a {
+	display: flex;
+	border: 1px solid black;
+	padding: 1%;
+	color: black;
+	width: 25%;
+}
+
+h1 {
+	font-size: 80px;
+	padding-bottom: 4%;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+div {
+	display: flex;
+}
+
+.p-above-img {
+	width: 45%;
+	margin: 2%;
+	padding-top: 2%;
+	line-height: 1.5rem;
+}
+
+.p-below-img {
+	width: 29%;
+	margin: 2%;
+	padding-bottom: 2%;
+	line-height: 1.5rem;
+}
+
+.middle-img {
+	width: 95%;
+	margin: 2%;
+}
+
+footer h2, address {
+	margin: 2%;
+}
+
+footer p {
+	text-align: center;
+	padding: 2%;
+}
+
+.second-section {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}*/
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*header, nav, p, div, a, img, h1, h2, address, section, footer {
+	border: 1px solid purple;
+}*/
+
+header {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 2% 0;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 77%;
+}
+
+nav a {
+	color: darkgrey;
+	text-decoration: none;
+}
+
+.first-section {
+	display: flex;
+	justify-content: space-evenly;
+	width: 80%;
+	padding-bottom: 3%;
+}
+
+.first-section div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 45%;
+}
+
+h1 {
+	font-size: 500%;
+	text-align: center;
+}
+
+.first-section div a {
+	padding: 1% 6%;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+}
+
+.first-section img {
+	width: 39%;
+	padding: 3%;
+}
+
+.second-section {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	padding: 3% 0 2% 0;
+	border-top: 1px solid black;
+}
+
+.second-section div {
+	width: 48%;
+}
+
+.p-above-img {
+	text-align: justify;
+}
+
+.middle-img-wrap {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	padding: 2% 0;
+}
+
+.middle-img {
+	width: 100%;	
+}
+
+.third-section {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	padding: 2% 0 3% 0;
+	border-bottom: 1px solid black;
+}
+
+.third-section div {
+	width: 31%;
+}
+
+.p-below-img {
+	text-align: justify;
+}
+
+h2 {
+	font-size: 115%;
+}
+
+footer {
+	width: 80%;
+	padding: 2% 0;
+}
+
+.copyright {
+	text-align: center;
+	margin: 2%;
+}
+
+/* Code for services.html */
+
+.services-header-img {
+	width: 80%;
+}
+
+.services-section {
+	width: 80%;
+	padding: 2% 0;
+	border-bottom: 1px solid black;
+}
+
+.content-boxes-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 80%;
+	padding: 2% 0;
+	border-bottom: 2px solid black;
+}
+
+.content-boxes {
+	display: flex;
+	flex-direction: column;
+	width: 49%;
+	margin: 1% 0;
+	background: whitesmoke;
+	border: 1px solid black;
+}
+
+.content-boxes h2 {
+	margin: 2%;
+}
+
+.content-boxes p {
+	margin: 2%;
+}
+
+.content-boxes a {
+	border: 1px solid black;
+	border-radius: 5px;
+	background: white;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 85%;
+	margin: 2%;
+	padding: 1% 6%;
+	width: 30%;
+}
+
+footer section {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer section div {
+	width: 49%;
+	margin: 1% 0;
+}
+
+.footer-img {
+	display: flex;
+	justify-content: center;
+}
+
+footer ul {
+	margin: 2% 0;
+	line-height: 2rem;
+}
+
+footer li {
+	list-style: square inside;
+}
+
+p {
+	line-height: 1.25rem;
+}
+
+/* Code for stretch goal, product.html */
+
+/*.products-header, .product-1-wrapper, .product-2-wrapper, .product-3-wrapper, .products-first-section, .products-footer, .products-header-img {
+	border: 1px solid purple;
+}
+
+p, h2, div, img {
+	border: 1px solid purple;
+} */
+
+.products-header-img {
+	width: 80%;
+	border-radius: 100px;
+	height: 50%;
+}
+
+.products-first-section {
+	width: 80%;
+	margin: 2% 0;
+	padding: 1% 0;
+	background: mistyrose;
+	border-radius: 40px;
+	text-align: center;
+	border: 1px solid pink;
+}
+
+.products-first-section h2 {
+	font-size: 200%;
+	padding: 1% 0;
+}
+
+.products-first-section p {
+	padding: 0 3% 2% 3%;
+}
+
+.product-1-wrapper {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.product-1-wrapper div {
+	width: 49%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background: thistle;
+	border-radius: 50px;
+	height: 60%;
+	border: 1px solid plum;
+}
+
+.product-1-wrapper p {
+	padding: 0 3%;
+}
+
+.product-1-wrapper img {
+	width: 49%;
+	border-radius: 100px;
+	border: 1px solid lavender;
+}
+
+.product-2-wrapper {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+.product-2-wrapper div {
+	width: 49%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background: lightskyblue;
+	border-radius: 50px;
+	height: 60%;
+	border: 1px solid skyblue;
+}
+
+.product-2-wrapper p {
+	padding: 0 3%;
+}
+
+.product-2-wrapper img {
+	width: 49%;
+	border-radius: 100px;
+	border: 1px solid lightskyblue;
+}
+
+.product-3-wrapper {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.product-3-wrapper div {
+	width: 49%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background: blanchedalmond;
+	border-radius: 50px;
+	height: 60%;
+	border: 1px solid bisque;
+}
+
+.product-3-wrapper p {
+	padding: 0 3%;
+}
+
+.product-3-wrapper img {
+	width: 49%;
+	border-radius: 100px;
+	border: 1px solid blanchedalmond;
+}
