@@ -442,4 +442,38 @@ p, h2, div, img {
 	nav a:first-child {
 		border-top: 1px solid darkgrey;
 	}
+
+	.second-section {
+		flex-direction: column;
+	}
+
+	.second-section div {
+		width: 100%;
+		padding: 20px 0;
+	}
+
+	.second-section div:first-child {
+		margin-top: 10px;
+	}
+
+	.second-section div:last-child {
+		margin-bottom: 10px;
+	}
+
+	.third-section {
+		flex-direction: column;
+	}
+
+	.third-section div {
+		width: 100%;
+		padding: 20px 0;
+	}
+
+	.third-section div:first-child {
+		margin-bottom: 10px;
+	}
+
+	.third-section div:last-child {
+		margin-top: 10px;
+	}
 }
