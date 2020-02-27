@@ -424,6 +424,22 @@ p, h2, div, img {
 	}
 }
 
-@media (max-width: 500px) {
+/* Don't forget to fix the page width for both breakpoints */
 
+@media (max-width: 500px) {
+	nav {
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	nav a {
+		padding: 10px 0;
+		border-bottom: 1px solid darkgrey;
+		width: 100%;
+		text-align: center;
+	}
+
+	nav a:first-child {
+		border-top: 1px solid darkgrey;
+	}
 }
