@@ -73,9 +73,9 @@ body {
 	align-items: center;
 }
 
-header, nav, p, div, a, img, h1, h2, address, section, footer {
+/*header, nav, p, div, a, img, h1, h2, address, section, footer {
 	border: 1px solid purple;
-}
+}*/
 
 header {
 	display: flex;
@@ -111,7 +111,7 @@ nav a {
 	width: 45%;
 }
 
-h1 {
+.first-section div h1 {
 	font-size: 500%;
 	text-align: center;
 }
@@ -394,15 +394,29 @@ p, h2, div, img {
 		flex-direction: column-reverse;
 	}
 
-	header .logo {
-		width: 30%;
-		padding: 20px 0;
-		margin: 0 35%;
+	header div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 20px 0;
 	}
 
 	nav {
 		width: 100%;
 		padding: 10px 0;
+	}
+
+	.first-section div {
+		margin: 40px 0;
+	}
+
+	.first-section div h1 {
+		font-size: 425%;
+	}
+
+	.first-section div a {
+		padding: 1% 15%;
+		margin: 10px 0;
 	}
 
 	.first-section img {
