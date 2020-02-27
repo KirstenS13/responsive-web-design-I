@@ -65,6 +65,8 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+/* Beginning of my code */
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -388,9 +390,26 @@ p, h2, div, img {
 /* Code for Responsive Design I project */
 
 @media (max-width: 800px) {
+	header {
+		flex-direction: column-reverse;
+	}
 
+	header .logo {
+		width: 30%;
+		padding: 20px 0;
+		margin: 0 35%;
+	}
+
+	nav {
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	.first-section img {
+		display: none;
+	}
 }
 
 @media (max-width: 500px) {
-	
+
 }
